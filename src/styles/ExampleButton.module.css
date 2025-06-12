@@ -1,0 +1,12 @@
+.exampleButton {
+    padding: 0.5rem 1rem;
+    background-color: #16a34a;
+    color: white;
+    border-radius: 0.375rem;
+    border: none;
+    cursor: pointer;
+}
+
+.exampleButton:hover {
+    background-color: #15803d;
+}

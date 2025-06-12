@@ -1,0 +1,64 @@
+.responseBox {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 400px; /* ← Increased height from 300px */
+}
+
+.heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.contentBox {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 12px;
+  flex: 1;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  overflow-y: auto;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1rem;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.iconButton {
+  background-color: #254D70;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-family: "Segoe UI", sans-serif;
+  transition: background-color 0.2s ease;
+}
+
+.iconButton:hover {
+  background-color: #1e3e5a;
+}
+
+
+
+
+
+
+
+
+
+
+
+  

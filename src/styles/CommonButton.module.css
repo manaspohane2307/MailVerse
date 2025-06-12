@@ -1,0 +1,18 @@
+.commonButton {
+  background-color: #254D70; /* Your desired button background */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+  font-family: inherit;
+  margin-right: 0.75rem;
+}
+
+.commonButton:hover {
+  background-color: #0f173f; /* Slightly darker on hover */
+}
+
+  

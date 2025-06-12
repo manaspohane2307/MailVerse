@@ -1,0 +1,28 @@
+/* styles/Button.module.css */
+
+:root {
+  --primary-color: #254d70;
+  --secondary-color: #efe4d2;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+
+.button:hover {
+  background-color: #1b3a52;
+}
+
+  

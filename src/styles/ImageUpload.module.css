@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+  
+  .iconButton {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #f9fafb;
+    font-size: 0.95rem;
+    user-select: none;
+  }
+  
+  .iconImage {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    user-select: none;
+    pointer-events: none;
+  }
+  
+  .preview {
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,68 @@
+/* styles/ReceivedEmail.module.css or styles/ResponseGoal.module.css */
+.container {
+    width: 100%;
+    margin-top: 24px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+  
+  .title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #254D70;
+  }
+  
+  .charCount {
+    font-size: 0.75rem;
+    color: #254D70;
+  }
+  
+  .textareaWrapper {
+    position: relative;
+  }
+  
+  .textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    padding-bottom: 36px;
+    border: 2px solid #254D70;
+    border-radius: 12px;
+    resize: none;
+    font-size: 0.875rem;
+    box-sizing: border-box;
+    color: #000;
+    background-color: #fff;
+  }
+  
+  .actions {
+    position: absolute;
+    bottom: 6px;
+    right: 10px;
+    display: flex;
+    gap: 8px;
+  }
+  
+  .leftIcons {
+    display: flex;
+    gap: 6px;
+  }
+  
+  .iconButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #444;
+    padding: 0;
+  }
+  
+  .iconButton:hover {
+    color: #254D70;
+  }
+  

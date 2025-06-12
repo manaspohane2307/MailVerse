@@ -1,0 +1,47 @@
+.container {
+    width: 400px;
+    border: 2px solid #254D70;  /* added bolder border */
+    border-radius: 8px;
+    padding: 12px;
+    background-color: white;
+    box-sizing: border-box;
+    margin-top: 24px;
+}
+
+
+.heading {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #254D70;
+    font-size: 1rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.button {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #254D70;
+    border-radius: 6px;
+    background-color: white;
+    color: #254D70;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.button.active {
+    background-color: #254D70;
+    color: white;
+    border-color: #254D70;
+}
+
+.button:hover:not(.active) {
+    background-color: #EFE4D2;
+}

@@ -1,0 +1,86 @@
+.container {
+    width: 400px;
+    margin-top: 20px;
+  }
+  
+  .heading {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #254D70; /* Primary heading color */
+    margin-bottom: 10px;
+  }
+  
+  .trigger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 12px;
+    border: none;
+    background-color: white; /* Box background */
+    font-size: 0.875rem;
+    cursor: pointer;
+    width: 100%;
+    color: #254D70; /* Text color */
+  }
+  
+  .icon {
+    color: #254D70;
+  }
+  
+  .content {
+    overflow: hidden;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    max-height: 200px;
+    z-index: 999;
+  }
+  
+  .viewport {
+    padding: 4px;
+    max-height: 160px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #254D70 #f1f1f1;
+  }
+  
+  .viewport::-webkit-scrollbar {
+    width: 6px;
+  }
+  .viewport::-webkit-scrollbar-thumb {
+    background-color: #254D70;
+    border-radius: 3px;
+  }
+  .viewport::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .item {
+    font-size: 0.875rem;
+    padding: 10px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #254D70;
+  }
+  
+  .item:hover {
+    background-color: #254D70; /* Accent background on hover */
+    color: white;
+  }
+  
+  .indicator {
+    margin-left: 8px;
+    color: #254D70;
+  }
+  
+  .scrollButton {
+    padding: 6px;
+    text-align: center;
+    background-color: white;
+    color: #254D70;
+    cursor: default;
+  }
+  

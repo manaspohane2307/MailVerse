@@ -1,0 +1,26 @@
+/* styles/Navbar.module.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background-color: #254d70;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rightButtons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.emailDisplay {
+  color: #efe4d2;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+  
